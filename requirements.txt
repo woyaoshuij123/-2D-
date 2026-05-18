@@ -1,0 +1,2 @@
+# Add your project dependencies here
+# pygame>=2.0.0
