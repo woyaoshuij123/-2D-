@@ -1,0 +1,7 @@
+# Project dependencies
+# No external dependencies required for basic functionality
+# Optional dependencies for enhanced features:
+
+# colorama>=0.4.4       # For colored terminal output
+# tabulate>=0.8.9       # For better table formatting
+# pyyaml>=6.0          # For YAML export functionality
