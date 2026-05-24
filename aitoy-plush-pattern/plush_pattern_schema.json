@@ -1,0 +1,86 @@
+{
+  "project_name": "AIToy Plush Pattern Schema",
+  "version": "0.1.0",
+  "description": "毛绒玩具AI开版结构化数据模板，用于从图片/文字生成纸样提示词、拆片清单和工艺说明。",
+  "toy_profile": {
+    "name": "国风少年将军毛绒玩具",
+    "target_height_cm": 20,
+    "style": ["Q版", "国风", "软萌", "量产可打样"],
+    "fabric": "短毛绒",
+    "filling": "PP棉"
+  },
+  "pattern_parts": [
+    {
+      "part_id": "HEAD_TOP_CENTER",
+      "part_name": "头顶中片",
+      "quantity": 1,
+      "material": "短毛绒",
+      "seam_allowance_mm": 5,
+      "notes": "控制头顶高度和圆润度"
+    },
+    {
+      "part_id": "HEAD_SIDE",
+      "part_name": "头部侧片",
+      "quantity": 2,
+      "material": "短毛绒",
+      "seam_allowance_mm": 5,
+      "notes": "左右对称，连接脸颊与后脑"
+    },
+    {
+      "part_id": "FACE_CENTER",
+      "part_name": "脸中片",
+      "quantity": 1,
+      "material": "短毛绒",
+      "seam_allowance_mm": 5,
+      "notes": "承载眼睛、眉毛、嘴巴刺绣定位"
+    },
+    {
+      "part_id": "CHEEK",
+      "part_name": "左右脸颊片",
+      "quantity": 2,
+      "material": "短毛绒",
+      "seam_allowance_mm": 5,
+      "notes": "用于做圆脸和鼓脸效果"
+    },
+    {
+      "part_id": "BODY_FRONT",
+      "part_name": "身体前片",
+      "quantity": 1,
+      "material": "短毛绒/服装布",
+      "seam_allowance_mm": 5,
+      "notes": "胸甲、腰封、服装刺绣定位"
+    },
+    {
+      "part_id": "BODY_BACK",
+      "part_name": "身体后片",
+      "quantity": 1,
+      "material": "短毛绒/服装布",
+      "seam_allowance_mm": 5,
+      "notes": "背部箭筒、飘带、配件定位"
+    },
+    {
+      "part_id": "ARM",
+      "part_name": "手臂片",
+      "quantity": 4,
+      "material": "短毛绒",
+      "seam_allowance_mm": 5,
+      "notes": "左右手各两片，筒状缝合"
+    },
+    {
+      "part_id": "LEG",
+      "part_name": "腿部片",
+      "quantity": 4,
+      "material": "短毛绒",
+      "seam_allowance_mm": 5,
+      "notes": "左右腿各两片，脚底另配"
+    }
+  ],
+  "embroidery_points": [
+    "眼睛刺绣定位",
+    "眉毛刺绣定位",
+    "嘴巴刺绣定位",
+    "胸甲纹样刺绣",
+    "衣摆纹样刺绣"
+  ],
+  "output_formats": ["prompt", "json", "svg_future", "dxf_future", "pdf_future"]
+}
