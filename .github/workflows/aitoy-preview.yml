@@ -1,0 +1,30 @@
+name: AIToy Preview
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'aitoy_app.py'
+      - 'aitoy-plush-pattern/**'
+      - 'aitoy-taobao-auto-listing/**'
+      - '.github/workflows/aitoy-preview.yml'
+
+jobs:
+  run-aitoy-preview:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r aitoy-taobao-auto-listing/requirements.txt
+
+      - name: Run AIToy preview
+        run: python aitoy_app.py
