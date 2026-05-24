@@ -1,0 +1,29 @@
+{
+  "product_name": "国风少年将军毛绒玩具",
+  "title": "国风少年将军毛绒玩具 Q版银甲武将公仔 古风棉花娃娃 生日礼物",
+  "size": "20cm",
+  "material": "短毛绒 + PP棉",
+  "price": "89.00",
+  "stock": 100,
+  "style": "国风 / Q版 / 软萌",
+  "package": "OPP袋",
+  "location_state": "浙江",
+  "location_city": "金华",
+  "cid": "50008879",
+  "props": "",
+  "outer_id": "AITOY-PLUSH-WARRIOR-20CM-001",
+  "skus": [
+    {
+      "sku_name": "普通款",
+      "price": "89.00",
+      "stock": 100,
+      "outer_id": "AITOY-PLUSH-WARRIOR-20CM-NORMAL"
+    },
+    {
+      "sku_name": "礼盒款",
+      "price": "129.00",
+      "stock": 50,
+      "outer_id": "AITOY-PLUSH-WARRIOR-20CM-GIFT"
+    }
+  ]
+}
